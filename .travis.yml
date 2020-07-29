@@ -30,7 +30,7 @@ matrix:
         - python: pypy3
 install:
     - ./.ci/travis/install.sh
-    - ls /var/snap/lxd/common/lxd/storage-pools/instances/containers/travis-job-odidev-psutil-366225515/rootfs/opt/python/3.5.7/lib/python3.5/
+    - ls /var/snap/lxd/common/lxd/
 script:
     - ./.ci/travis/run.sh
 after_success:
